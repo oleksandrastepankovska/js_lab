@@ -1,0 +1,51 @@
+#ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(image/basket.svg);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .container{
+      overflow: hidden;
+  }
+
+  .container button{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 200px;
+    height: 50px;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+  }
+
+  .counter{
+	display: flex;
+	color: black;
+	font-size: 40px;
+	justify-content: center;
+  }
+
+  .hole, .goodHole{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    z-index: -2;
+    position: absolute;
+  }
+
+  .goodHole{
+    background: url(image/hoop.svg);
+    z-index: -1;
+  }
+
+  .hole{
+    background: url(image/player.svg)  
+  }

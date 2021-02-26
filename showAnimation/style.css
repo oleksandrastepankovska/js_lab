@@ -1,0 +1,18 @@
+html {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background-size: cover;
+}
+
+canvas {
+  z-index: 2;
+}
+
+.text {
+  text-align: center;
+  font-size: 78px;
+  font-family: cursive;
+  color: whitesmoke;
+  width: 100%;
+  top: 130px;
+  position: absolute;
+}
